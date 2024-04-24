@@ -11,6 +11,4 @@ RUN pip install pytest
 # Existing Dockerfile content (if any)
 
 # Install bash (assuming you prefer bash)
-RUN apt-get update && apt-get install -y bash  # For Debian-based images
-# OR
-RUN yum update && yum install -y bash  # For RedHat-based images
+RUN apt-get update && apt-get install -y bash
