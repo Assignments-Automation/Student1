@@ -6,8 +6,9 @@ WORKDIR /app
 # Copy your Python file (palindrome.py) to the working directory
 COPY palindrome.py .
 
-# Install pytest (assuming you're using pytest for testing)
-RUN pip install pytest
+# Install pytest and pytest-xunit (for JUnit XML reporting)
+RUN pip install pytest pytest-xunit
+
 # Existing Dockerfile content (if any)
 
 # Install bash (assuming you prefer bash)
