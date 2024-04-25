@@ -28,6 +28,6 @@ pipeline {
       }
     }
     
-    // (Optional) Add additional stages for storing results, sending notifications, etc.
+   
   }
 }
