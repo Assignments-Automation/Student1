@@ -6,4 +6,4 @@ def is_palindrome(s):
     # Check if the string is equal to its reverse
     return s == s[::-1]
 
-#hello
+#hello #hello
